@@ -1,4 +1,10 @@
 # Suru
+- Kdecoration
+  
+  | breeze | suru |
+  | ------ | -----|
+  | <img width="1556" height="1468" alt="breeze-welcome" src="https://github.com/user-attachments/assets/c1606a38-e6f7-49bc-b0a2-750f9050718d" /> | <img width="1488" height="1400" alt="suru-welcome" src="https://github.com/user-attachments/assets/bd8d925a-fea3-4a1f-96bd-8fadd4bc05f4" /> |
+
 
 
 ## Build
