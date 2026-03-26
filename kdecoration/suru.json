@@ -1,0 +1,14 @@
+{
+    "KPlugin": {
+        "Id": "org.ubuntu.suru",
+        "Description": "Suru window decoration for KDE Plasma",
+        "Name": "Suru",
+        "ServiceTypes": [
+            "org.kde.kdecoration3"
+        ]
+    },
+    "org.kde.kdecoration3": {
+        "blur": false,
+        "recommendedBorderSize": "None"
+    }
+}

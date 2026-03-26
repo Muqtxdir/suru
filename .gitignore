@@ -1,0 +1,9 @@
+build/
+CMakeLists.txt.user
+*.autosave
+*.swp
+*~
+.idea/
+.vscode/
+.cache/
+compile_commands.json
