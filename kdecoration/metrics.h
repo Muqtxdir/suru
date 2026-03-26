@@ -47,7 +47,7 @@ namespace Titlebar {
 /* Button-specific constants */
 namespace Button {
     inline constexpr qreal MenuIconScale = 0.55;
-    inline constexpr qreal RestoreGap    = 4.0;
+    inline constexpr qreal RestoreGap    = 2.0;
 }
 
 /* Logical coordinate space for non-circle button icons */
@@ -62,7 +62,7 @@ namespace CircleSpace {
  * so strokes look identical across all DPI / scale / gridUnit values.
  */
 namespace PenWidth {
-    inline constexpr qreal Symbol    = 1.221;
+    inline constexpr qreal Symbol    = 1.01; // Copied from Breeze
     inline constexpr qreal Reference = 24.0;
 }
 
