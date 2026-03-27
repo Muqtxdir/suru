@@ -104,8 +104,12 @@ void ButtonBase::paint(QPainter *painter, const QRectF &repaintArea)
                             circleSize, circleSize);
 
     const qreal strokeSpan = qRound(btnSize * ButtonDimensions::StrokeRatio);
-    const QRectF strokeRect(cx - strokeSpan / 2.0, cy - strokeSpan / 2.0,
-                            strokeSpan, strokeSpan);
+    const qreal penW = PenWidth::Symbol * btnSize / PenWidth::Reference;
+    const qreal strokeInset = penW / 2.0;
+    const QRectF strokeRect(cx - strokeSpan / 2.0 + strokeInset,
+                            cy - strokeSpan / 2.0 + strokeInset,
+                            strokeSpan - penW,
+                            strokeSpan - penW);
 
     /* Circle background */
     const ButtonStyle style = buttonStyle();
@@ -125,7 +129,7 @@ void ButtonBase::paint(QPainter *painter, const QRectF &repaintArea)
         QPen pen(fg);
         pen.setCapStyle(Qt::SquareCap);
         pen.setJoinStyle(Qt::MiterJoin);
-        pen.setWidthF(PenWidth::Symbol * btnSize / PenWidth::Reference);
+        pen.setWidthF(penW);
 
         painter->setPen(pen);
         painter->setBrush(Qt::NoBrush);

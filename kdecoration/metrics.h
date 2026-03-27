@@ -13,9 +13,8 @@
 namespace Suru
 {
 
-/* Foundation radii */
-inline constexpr qreal BaseRadius   = 3.0;
-inline constexpr qreal WindowRadius = BaseRadius + 1.0;
+/* Window corner radius  */
+inline constexpr qreal WindowRadius = 3.5; // For Reference: Breeze uses 2.5
 
 /* Visual style categories for buttons */
 enum class ButtonStyle {

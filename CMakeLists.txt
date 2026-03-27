@@ -24,9 +24,6 @@ find_package(Qt6 ${QT_MIN_VERSION} REQUIRED CONFIG COMPONENTS Gui DBus Widgets)
 
 find_package(KF6 ${KF6_MIN_VERSION} REQUIRED COMPONENTS
     CoreAddons
-    Config
-    I18n
-    KCMUtils
 )
 
 find_package(KDecoration3 REQUIRED)

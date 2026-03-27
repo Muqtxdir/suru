@@ -1,32 +1,37 @@
 # Suru
+
+- **Suru** is loosley inspired by Ubuntu's [Yaru](https://github.com/ubuntu/yaru) and [Yaru.dart](https://github.com/ubuntu/yaru.dart) project but for KDE Plamsa Desktop instead.
+- Uses KDE Plamsa's Fantastic [Breeze](https://github.com/kde/breeze) as it's upstream base (_kinda like fork of Breeze_)
+
+ ## Screenshots
 - Kdecoration
-  
+
   | breeze | suru |
   | ------ | -----|
-  | <img width="1556" height="1468" alt="breeze-welcome" src="https://github.com/user-attachments/assets/c1606a38-e6f7-49bc-b0a2-750f9050718d" /> | <img width="1488" height="1400" alt="suru-welcome" src="https://github.com/user-attachments/assets/bd8d925a-fea3-4a1f-96bd-8fadd4bc05f4" /> |
-
+  | <img width="1556" height="1480" alt="breeze-decoration" src="https://github.com/user-attachments/assets/fc74207b-3742-484e-b9af-41f3827e7127" /> | <img width="1556" height="1480" alt="suru-kdecoration" src="https://github.com/user-attachments/assets/ead72e90-3bf0-4e39-a4b6-1cde175230e3" /> |
 
 
 ## Build
 
 - Install Build Dependencies:
 
-```
-bash
-sudo apt install -y build-essential cmake extra-cmake-modules qt6-base-dev qt6-tools-dev qt6-tools-dev-tools libkf6coreaddons-dev libkf6config-dev libkf6i18n-dev libkf6kcmutils-dev libkdecorations3-dev
+```bash
+sudo apt install -y build-essential cmake extra-cmake-modules qt6-base-dev qt6-tools-dev qt6-tools-dev-tools libqt6dbus6 libkf6coreaddons-dev libkdecorations3-dev
 ```
 
 - Build the project:
 
-```
-bash
-cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
-cmake --build build -j"$(nproc)"
+```bash
+cmake -S . -B build
+cmake --build build
 ```
 
 - Install the project:
 
-```
-bash
+```bash
 sudo cmake --install build
 ```
+
+
+> [!IMPORTANT]
+> GitHub's Copilot (via VS-Code) has been used to add the comments in the project, just exploring Agentic approaches for docs and linting
