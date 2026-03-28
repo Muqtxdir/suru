@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <defs id="defs3051">
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#333337;
+      }
+      .ColorScheme-Accent {
+        color:#ff7800;
+      }
+      </style>
+  </defs>
+ <!-- Folder body (accent fill) -->
+ <path
+     style="fill:currentColor"
+     d="M20.623 12C7.36 12 6 12.75 6 25.986v43.418C6 82.641 7.358 84 20.621 84h54.756C88.64 84 90 82.641 90 69.404V33.346C90 20.109 88.64 18 75.377 18H43l-6-6z"
+     class="ColorScheme-Accent"
+     />
+ <!-- Tab shadow overlay (color-burn to visually separate tab from body) -->
+ <path
+     style="mix-blend-mode:color-burn;fill-opacity:0.4"
+     d="M20.623 12C7.36 12 6 12.75 6 25.986v18.61C6 31.359 7.36 30 20.623 30H39l6-6h30.377C88.64 24 90 25.359 90 38.596v-5.25C90 20.109 88.64 18 75.377 18H43l-6-6z"
+     class="ColorScheme-Text"
+     />
+ <!-- Top edge highlight (white border tracing folder body and tab edges) -->
+ <path
+     style="fill:#ffffff;fill-opacity:0.2"
+     d="M20.623 12C7.36 12 6 12.75 6 25.986v1C6 13.75 7.36 13 20.623 13H37l6 6h32.377C88.64 19 90 21.11 90 34.346v-1C90 20.109 88.64 18 75.377 18H43l-6-6ZM45 24l-6 6H20.623C7.36 30 6 31.36 6 44.596v1C6 32.359 7.36 31 20.623 31H39l6-6h30.377C88.64 25 90 26.359 90 39.596v-1C90 25.359 88.64 24 75.377 24Z"
+     />
+ <!-- Bottom-right corner fold sheen -->
+ <path
+     style="fill:#ffffff;fill-opacity:0.1"
+     d="M90 60 67 83h8.93C88.693 83 90 81.692 90 68.956Z"
+     />
+ <!-- Bottom edge shadow -->
+ <path
+     style="fill-opacity:0.2;fill-rule:evenodd"
+     d="M6 68.404v1C6 82.641 7.36 84 20.623 84h54.754C88.64 84 90 82.641 90 69.404v-1C90 81.641 88.64 83 75.377 83H20.623C7.36 83 6 81.641 6 68.404Z"
+     class="ColorScheme-Text"
+     />
+ <!-- Pictogram: document shape (docs.svg scaled 2× from 24px, centered at 49,58) -->
+ <path
+     style="fill:#ffffff;fill-opacity:0.4"
+     d="M40 37c-3 0-5.112-.1-6.766.89-.826.496-1.44 1.312-1.776 2.324C31.118 41.228 31 42.444 31 44v26c0 1.556.118 2.782.5 3.816.382 1.034 1.106 1.854 2.054 2.328 1.9.95 4.446.856 8.446.856h14c3 0 5.112.1 6.766-.89.826-.496 1.44-1.312 1.776-2.324.34-1.014.458-2.23.458-3.786V47.586L54.414 37Zm0 2H53v10h10v21c0 1.444-.13 2.478-.356 3.152-.224.676-.486.984-.91 1.24C60.888 74.896 59 75 56 75H42c-4 0-6.452-.094-7.554-.644-.552-.276-.828-.58-1.072-1.234C33.134 72.468 33 71.444 33 70V44c0-1.444.13-2.478.356-3.152.224-.676.486-.984.91-1.24C35.112 39.104 37 39 40 39z"
+     />
+ <!-- Pictogram: text lines (docs.svg scaled 2×, 2px height = 2px stroke weight) -->
+ <path
+     style="fill:#ffffff;fill-opacity:0.4"
+     d="M39 67h10v2H39zm0-4h18v2H39zm0-4h18v2H39zm0-4h18v2H39z"
+     />
+</svg>
